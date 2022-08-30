@@ -8,6 +8,7 @@ NavLink,
 } from 'react-router-dom'
 
 import HomePage from '../pages/HomePage'
+
 const AppRouter = () => {
   return (
     <>
