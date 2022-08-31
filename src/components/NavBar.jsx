@@ -155,7 +155,7 @@ const NavBar = () => {
                   <div className="d-flex">
                     <li>
                       <Link to="/registro" className="dropdown-item  " href="#">
-                        <button type="button" class="btn btn-outline-dark me-1">
+                        <button type="button" class="btn btn-outline-info me-1">
                           Regístrate
                         </button>
                       </Link>
