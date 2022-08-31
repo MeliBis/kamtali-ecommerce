@@ -1,14 +1,20 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+const imagenLogoNav = require('../assets/kamtali-logo.png')
+
 
 const NavBarPrincipal = () => {
   return (
     <>
  <nav className="navbar bg-light ">
   <div className="container">
-    <a className="navbar-brand">Navbar</a>
+    <a className="navbar-brand">
+    <img src={imagenLogoNav} className="card-img-top" style={{width: '20rem'}} alt="..." />
+    </a>
     <form className="d-flex" role="search">
       <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="btn btn-outline-success" type="submit">Search</button>
+      <button className="btn btn-outline-info" type="submit">Buscar</button>
     </form>
   </div>
 </nav>

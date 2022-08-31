@@ -8,22 +8,21 @@ import {
   Link,
 } from "react-router-dom";
 
-const imagenLogo = require("../assets/kamtali-logo.png");
 
 const NavBar = () => {
   return (
     <nav classname="navbar navbar-expand-lg bg-light d-flex ">
-      <div className="container mw-100  fixed-top ">
+      <div className="container-fluid mw-100  ">
         <nav className="navbar navbar-expand-lg bg-light">
-          <div className="container-fluid">
-            <Link to="/" className=" navbar-brand " href="#">
+          <div className="container">
+           {/*  <Link to="/" className=" navbar-brand " href="#">
               <img
                 src={imagenLogo}
                 alt="logo"
                 width={150}
                 className="me-4 d-flex "
               />
-            </Link>
+            </Link> */}
 
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">

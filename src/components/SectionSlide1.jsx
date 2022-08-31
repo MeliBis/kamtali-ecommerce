@@ -7,9 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import { Autoplay, Pagination, Navigation,esLint } from "swiper";
+const imagenSlide1 = require("../assets/sf.png");
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function App() {
   return (
@@ -28,7 +29,10 @@ export default function App() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>
+        <img src={imagenSlide1} className="card-img-top" alt="..." />
+
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>

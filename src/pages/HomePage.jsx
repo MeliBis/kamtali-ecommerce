@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <>
       <NavBarPrincipal/>
-      <NavBar/><br /><br /><br /><br /><br />
+      <NavBar/>
       <SectionSlide1/>
       <Section3/>
       <Footer/>
