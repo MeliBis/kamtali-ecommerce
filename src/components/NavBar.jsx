@@ -15,19 +15,8 @@ const NavBar = () => {
       <div className="container-fluid mw-100  ">
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container">
-           {/*  <Link to="/" className=" navbar-brand " href="#">
-              <img
-                src={imagenLogo}
-                alt="logo"
-                width={150}
-                className="me-4 d-flex "
-              />
-            </Link> */}
-
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
-             
-          
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -41,12 +30,12 @@ const NavBar = () => {
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
-                        Action
+                        Ropa
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Another action
+                      Ropa bordada
                       </a>
                     </li>
                     <li>
@@ -54,7 +43,17 @@ const NavBar = () => {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Something else here
+                        Mascotas
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                      Tecnología
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Postres gourmet
                       </a>
                     </li>
                   </ul>
@@ -74,12 +73,12 @@ const NavBar = () => {
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
-                        Action
+                        Del mes
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Another action
+                        En tienda
                       </a>
                     </li>
                     <li>
@@ -87,7 +86,7 @@ const NavBar = () => {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Something else here
+                      Tienda Online
                       </a>
                     </li>
                   </ul>
@@ -106,12 +105,12 @@ const NavBar = () => {
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
-                        Action
+                        Ropa
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Another action
+                       Tecnología
                       </a>
                     </li>
                     <li>
@@ -119,7 +118,7 @@ const NavBar = () => {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Something else here
+                       Mascotas
                       </a>
                     </li>
                   </ul>
@@ -154,7 +153,7 @@ const NavBar = () => {
                   <div className="d-flex">
                     <li>
                       <Link to="/registro" className="dropdown-item  " href="#">
-                        <button type="button" class="btn btn-outline-info me-1">
+                        <button type="button" class="btn btn-outline-primary me-1">
                           Regístrate
                         </button>
                       </Link>
@@ -169,7 +168,7 @@ const NavBar = () => {
                   </div>
                   <li>
                     <Link to="/cuenta" className="dropdown-item" href="#">
-                      Cuentas
+                      Mi cuenta
                     </Link>
                   </li>
 

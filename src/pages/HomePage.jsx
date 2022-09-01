@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import Section3 from '../components/Section3'
 import SectionSlide1 from '../components/SectionSlide1'
 import NavBar0 from '../components/NavBar0'
+import Publicidad1 from '../components/Publicidad1'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <NavBar/>
       <SectionSlide1/>
       <Section3/>
+      <Publicidad1/>
       <Footer/>
     </>
   )

@@ -11,6 +11,9 @@ import { Autoplay, Pagination, Navigation,esLint } from "swiper";
 const imagenSlide1 = require("../assets/sf.png");
 
 // import required modules
+const imgPublicidad1 = require('../assets/publicidad/publicidad1.jpg')
+const imgPublicidad2 = require('../assets/publicidad/publicidad2.jpg')
+const imgPublicidad3 = require('../assets/publicidad/publicidad3.jpg')
 
 export default function App() {
   return (
@@ -30,17 +33,18 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <img src={imagenSlide1} className="card-img-top" alt="..." />
+        <img src={imgPublicidad1} className="card-img-top" alt="..." />
 
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+        <img src={imgPublicidad2} className="card-img-top" alt="..." />
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={imgPublicidad3} className="card-img-top" alt="..." />
+
+        </SwiperSlide>
+ 
       </Swiper>
     </>
   );

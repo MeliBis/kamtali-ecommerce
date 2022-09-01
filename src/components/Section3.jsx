@@ -16,7 +16,7 @@ const Section3 = () => {
 
 
         <div className=" mt-5">
-        <h1>Novedades</h1>
+        <h1>Lo más visto en Septiembre</h1>
      </div>
 
         <Swiper

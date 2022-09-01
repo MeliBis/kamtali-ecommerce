@@ -5,12 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-dark py-4 bg-warning">
-        <div className="container text-muted ">
+      <footer className="text-white py-4 bg-primary">
+        <div className="container  ">
           <nav className="row">
             <img src="" alt="" />
             <ul className="col-12 col-md-2 list-unstyled">
-              <li className="font-weight-bold mb-2 ">Horario de atención</li>
+              <li className=" mb-2 ">Horario de atención</li>
               <li className="text-left ">10:00 a 21:00 horas</li>
               <li className=" mb-2">Dirección</li>
               <li className="text-left">
@@ -19,14 +19,14 @@ const Footer = () => {
             </ul>
 
             <ul className="col-12 col-md-2 list-unstyled">
-              <li className="font-weight-bold mb-2">Acerca de Kamtali</li>
-              <li className="text-left">
+              <li className="text-style-bold ">Acerca de Kamtali</li>
+              <li className="">
                 <Link to="/" href="">
                   Acerca de nosotros
                 </Link>{" "}
               </li>
 
-              <li className="text-left ">
+              <li className="text-left text-white ">
                 <Link to="/" href="" className=" list-unstyle">
                   Localización de la tienda
                 </Link>{" "}
@@ -55,17 +55,14 @@ const Footer = () => {
                 <div className="invalid-feedback">
                   Please enter a valid email address for shipping updates.
                 </div>
-                <input
-                  type="text"
-                  className="form-control col-"
-                  placeholder="Registrarse"
-                />
+                <button className="btn btn-outline-light">Registrarme</button>
+            
                 <div className="invalid-feedback">
                   Please enter a valid email address for shipping updates.
                 </div>
               </div>
 
-              <li className="mt-3 justify-content-center ">
+              <li className="mt-3 container-fluid  ">
                 <Link to="/" className="text-reset me-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

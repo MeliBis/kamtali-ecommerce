@@ -1,13 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const imagenLogoNav = require('../assets/kamtaliLogo1.png')
+const imagenLogoNav = require('../assets/logokamtaliBco.png')
 
 
 const NavBarPrincipal = () => {
   return (
     <>
- <nav className="navbar bg-warning ">
+ <nav className="navbar bg-primary ">
   <div className="container">
     <a className="navbar-brand">
     <img src={imagenLogoNav} className="card-img-top" style={{width: '10rem'}} alt="..." />
