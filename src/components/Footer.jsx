@@ -19,9 +19,9 @@ const Footer = () => {
             </ul>
 
             <ul className="col-12 col-md-2 list-unstyled">
-              <li className="text-style-bold ">Acerca de Kamtali</li>
+              <li className=" ">Acerca de Kamtali</li>
               <li className="">
-                <Link to="/" href="">
+                <Link to="/" href="" >
                   Acerca de nosotros
                 </Link>{" "}
               </li>
