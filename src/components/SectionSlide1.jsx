@@ -17,9 +17,9 @@ export default function App() {
   return (
     <>
       <Swiper
+       freeMode={true}
+       grabCursor={true}
         slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
         centeredSlides={true}
         loop={true}
         loopFillGroupWithBlank={true}
@@ -37,12 +37,10 @@ export default function App() {
           0:{
             slidesPerView: 1,
             spaceBetween:10,
-
           },
           480:{
-            slidesPerView: 3,
+            slidesPerGroup:3,
             spaceBetween: 10,
-            
           },
           7600:{
             slidesPerView: 4,

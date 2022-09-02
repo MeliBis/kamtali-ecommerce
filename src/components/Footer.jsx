@@ -25,8 +25,8 @@ const Footer = () => {
               </li>
 
               <li className="text-left text-white ">
-                <Link to="/" href="" className=" text-reset text-decoration-none link-warning" >
-                  Localización de la tienda
+                <Link to="/localizacion" href="" className=" text-reset text-decoration-none link-warning" >
+                  Encuéntranos
                 </Link>{" "}
               </li>
             </ul>

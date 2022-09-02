@@ -15,8 +15,8 @@ const Section3 = () => {
     <>
 
 
-        <div className=" mt-5 ms-3">
-        <h3>Lo más visto en Septiembre</h3>
+        <div className=" mt-5 ">
+        <h3 className='container'>Recomendado para ti</h3>
      </div>
 
         <Swiper
@@ -49,7 +49,7 @@ const Section3 = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper container"
       >
         <SwiperSlide>
 

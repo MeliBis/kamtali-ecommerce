@@ -15,8 +15,8 @@ const Section4 = () => {
     <>
 
 
-        <div className=" mt-5 ms-3">
-        <h3>Recomendado para ti</h3>
+        <div className=" mt-5  ">
+        <h3 className='container'>Ofertas del día</h3>
      </div>
 
         <Swiper
@@ -49,11 +49,11 @@ const Section4 = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper container"
       >
         <SwiperSlide>
 
-      <div className="card mt-5 me-5" style={{width: '18rem'}}>
+      <div className="card mt-5 me-5 " style={{width: '18rem'}}>
               <img src={imagenProducto1} className="card-img-top" alt="..." />
           <div className="card-body">
               <h5 className="card-title">Ropa bordada</h5>
