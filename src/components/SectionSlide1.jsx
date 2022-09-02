@@ -30,7 +30,7 @@ export default function App() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide >
         <img src={imgPublicidad3} className="card-img-top" height={850} alt="..." />
 
         </SwiperSlide>

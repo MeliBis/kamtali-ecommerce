@@ -12,9 +12,9 @@ function Registro() {
             <input className='controls' type="text" name='apellido' id='apellido' placeholder="Apellido" />
             <input className='controls' type="email" name='email' id='email' placeholder="m@gmail.com" />
             <input className='controls' type="password" name='contrasena' id='contrasena' placeholder="Contraseña"  />
-            <p className='link-cuenta'>Estoy de acuerdo  con <a href="/">Terminos y condiciones</a></p>
+            <p className='text-dark '>Estoy de acuerdo  con <a href="/" className=' fw-bold'>Terminos y condiciones</a></p>
             <input className=' boton' type="submit " value='Registrar'/>
-            <p className='link-cuenta'><Link to='/inicio'>Ya tengo cuanta</Link></p>
+            <p className='link-cuenta fw-bold'><Link to='/inicio'>Ya tengo cuanta</Link></p>
           </section>
 
     </>

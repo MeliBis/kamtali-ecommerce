@@ -17,8 +17,11 @@ const HomePage = () => {
       <NavBar/>
       <SectionSlide1/>
       <Section3/>
-      <SectionAnuncio1/>
+
+    
+
       <Section4/>
+      <Publicidad1/>
       <Footer/>
     </>
   )

@@ -10,35 +10,33 @@ const Footer = () => {
           <nav className="row">
             <img src="" alt="" />
             <ul className="col-12 col-md-2 list-unstyled">
-              <li className=" mb-2 ">Horario de atención</li>
+              <li className="fw-bold mb-2">Horario de atención</li>              
+
               <li className="text-left ">10:00 a 21:00 horas</li>
-              <li className=" mb-2">Dirección</li>
-              <li className="text-left">
-                Calle Carmen Serdán no.43 Zacatlán, Puebla
-              </li>
+              
             </ul>
 
-            <ul className="col-12 col-md-2 list-unstyled">
-              <li className="fw-bold ">Acerca de Kamtali</li>
+            <ul className="col-12 col-md-2 list-unstyled  ">
+              <li className="fw-bold mb-2">Acerca de Kamtali</li>
               <li className="">
-                <Link to="/acerca" href="" >
+                <Link to="/acerca" href=""className="text-reset text-decoration-none link-warning" >
                   Acerca de nosotros
                 </Link>{" "}
               </li>
 
               <li className="text-left text-white ">
-                <Link to="/" href="" className=" list-unstyle">
+                <Link to="/" href="" className=" text-reset text-decoration-none link-warning" >
                   Localización de la tienda
                 </Link>{" "}
               </li>
             </ul>
             <ul className="col-8 col-md-2 list-unstyled">
-              <li className="font-weight-bold mb-2">Ayuda y contacto</li>
+              <li className=" mb-2 fw-bold">Ayuda y contacto</li>
               <li className="text-left">Tel: 5615999821</li>
               <li className="text-left">Email: soporte@kamtali.com</li>
             </ul>
             <ul className="col-12 col-md-4 list-unstyled">
-              <li className="font-weight-bold mb-2">
+              <li className=" fw-bold  mb-3">
                 Únete a la familia Kamtali
               </li>
               <div className="col-12 d-flex ">

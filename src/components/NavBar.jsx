@@ -160,7 +160,7 @@ const NavBar = () => {
                     </li>
                     <li>
                       <Link to="/inicio" className="dropdown-item " href="#">
-                        <button type="button" class="btn btn-outline-success">
+                        <button type="button" class="btn btn-outline-warning">
                           Iniciar Sesión
                         </button>
                       </Link>

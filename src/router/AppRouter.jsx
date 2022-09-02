@@ -13,6 +13,7 @@ import ListaDeseosPage from '../pages/ListaDeseosPage'
 import MiCuentaPage from '../pages/MiCuentaPage'
 import RegistroPage from '../pages/RegistroPage'
 import OrdenarPage from '../pages/OrdenarPage'
+import LocalizacionPage from '../pages/LocalizacionPage'
 
 
 const AppRouter = () => {
@@ -27,6 +28,7 @@ const AppRouter = () => {
             <Route path="/deseos" element={<ListaDeseosPage />}/>
             <Route path="/micuenta" element={<MiCuentaPage />}/>
             <Route path="/ordenar" element={<OrdenarPage />}/>
+            <Route path="/localizacion" element={<LocalizacionPage />}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 
