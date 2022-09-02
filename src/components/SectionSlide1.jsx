@@ -17,29 +17,52 @@ export default function App() {
   return (
     <>
       <Swiper
+        slidesPerView={3}
         spaceBetween={30}
+        slidesPerGroup={3}
         centeredSlides={true}
+        loop={true}
+        loopFillGroupWithBlank={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
+        
         pagination={{
           clickable: true,
         }}
+        
         navigation={true}
+        breakpoints={{
+          0:{
+            slidesPerView: 1,
+            spaceBetween:10,
+
+          },
+          480:{
+            slidesPerView: 3,
+            spaceBetween: 10,
+            
+          },
+          7600:{
+            slidesPerView: 4,
+            spaceBetween: 15,
+            
+          }
+        }}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide >
-        <img src={imgPublicidad3} className="card-img-top" height={850} alt="..." />
+        <img src={imgPublicidad3} className="card-img-top"  alt="..." />
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src={imgPublicidad2} className="card-img-top" height={850} alt="..." />
+        <img src={imgPublicidad2} className="card-img-top" alt="..." />
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src={imgPublicidad3} className="card-img-top"height={850} alt="..." />
+        <img src={imgPublicidad3} className="card-img-top" alt="..." />
 
         </SwiperSlide>
  
