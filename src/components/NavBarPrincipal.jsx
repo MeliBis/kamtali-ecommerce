@@ -24,4 +24,4 @@ const NavBarPrincipal = () => {
   )
 }
 
-export default NavBarPrincipal
+export default NavBarPrincipal;

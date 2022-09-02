@@ -10,7 +10,7 @@ import Publicidad1 from '../components/Publicidad1'
 const HomePage = () => {
   return (
     <>
-    <NavBar0/>
+      <NavBar0/>
       <NavBarPrincipal/>
       <NavBar/>
       <SectionSlide1/>

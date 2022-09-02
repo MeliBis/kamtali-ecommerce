@@ -5,7 +5,7 @@ const Publicidad1 = () => {
     <>
       <nav className="navbar bg-primary text-white mb-5">
         <div className="container-fluid">
-          <a className="navbar-brand col-sm-12 d-flex justify-content-center" href="#">
+          <a className="navbar-brand col-sm-12 d-flex justify-content-center text-white" href="#">
             {/* <img
               src="/docs/5.2/assets/brand/bootstrap-logo.svg"
               alt

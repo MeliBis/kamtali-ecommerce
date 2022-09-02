@@ -1,0 +1,61 @@
+:root{
+    --main-color:#2c77b8;
+    --acento:#e9a235;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-register{
+    width: 400px;
+    background-color: var(--acento);
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 7px 13px 37px #d4a053;
+
+}
+.form-register h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom: 16px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.form-register a{
+    color:#fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+.form-register .boton{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.form-register .boton:hover{
+    background-color:var(--main-color);
+    color: #fff;
+}
+.form-register .link-cuenta a:hover{
+    color:var(--main-color) ;
+}
+.form-register .link-acuerdo{
+    color: var(--main-color);
+}

@@ -6,8 +6,10 @@ Routes,
 Navigate,
 NavLink,
 } from 'react-router-dom'
-
 import HomePage from '../pages/HomePage'
+import RegistroPage from '../pages/RegistroPage'
+import Registro from '../pages/RegistroPage'
+
 
 const AppRouter = () => {
   return (
@@ -15,6 +17,7 @@ const AppRouter = () => {
     <Router>
         <Routes>
             <Route path="/" element={<HomePage />}/>
+            <Route path="/registro" element={<RegistroPage />}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 
