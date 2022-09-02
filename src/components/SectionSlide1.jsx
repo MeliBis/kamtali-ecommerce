@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation,esLint } from "swiper";
 
 // import required modules
-const imgPublicidad1 = require('../assets/publicidad/publicidad1.jpg')
  const imgPublicidad2 = require('../assets/publicidad/publicidad2.jpg')
 const imgPublicidad3 = require('../assets/publicidad/publicidad3.jpg')
  
@@ -32,7 +31,7 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <img src={imgPublicidad1} className="card-img-top" height={850} alt="..." />
+        <img src={imgPublicidad3} className="card-img-top" height={850} alt="..." />
 
         </SwiperSlide>
         <SwiperSlide>
