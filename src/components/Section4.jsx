@@ -10,13 +10,13 @@ const imagenProducto1 = require('../assets/sf.png')
 
 
 
-const Section3 = () => {
+const Section4 = () => {
   return (
     <>
 
 
         <div className=" mt-5 ms-3">
-        <h3>Lo más visto en Septiembre</h3>
+        <h3>Recomendado para ti</h3>
      </div>
 
         <Swiper
@@ -272,4 +272,4 @@ const Section3 = () => {
   )
 }
 
-export default Section3;
+export default Section4;

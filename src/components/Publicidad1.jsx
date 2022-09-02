@@ -12,7 +12,7 @@ const Publicidad1 = () => {
               width={30}
               height={24}
             /> */}
-            <p >Hasta el 50% de descuento</p>
+            <p >Encuentra hasta el 50% de descuento</p>
           </a>
         </div>
       </nav>
