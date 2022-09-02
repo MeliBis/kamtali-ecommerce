@@ -4,11 +4,11 @@ BrowserRouter as Router,
 Route,
 Routes,
 Navigate,
-NavLink,
+
 } from 'react-router-dom'
 import HomePage from '../pages/HomePage'
+import InicioSesionPage from '../pages/InicioSesionPage'
 import RegistroPage from '../pages/RegistroPage'
-import Registro from '../pages/RegistroPage'
 
 
 const AppRouter = () => {
@@ -18,6 +18,7 @@ const AppRouter = () => {
         <Routes>
             <Route path="/" element={<HomePage />}/>
             <Route path="/registro" element={<RegistroPage />}/>
+            <Route path="/inicio" element={<InicioSesionPage />}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 

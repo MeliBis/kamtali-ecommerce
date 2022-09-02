@@ -11,12 +11,12 @@
 
 .form-register{
     width: 400px;
-    background-color: var(--acento);
+    background-color: var(--main-color);
     padding: 30px;
     margin: 50px auto;
     border-radius: 4px;
     color: #fff;
-    box-shadow: 7px 13px 37px #d4a053;
+    box-shadow: 7px 13px 37px #709abe;
 
 }
 .form-register h1{
@@ -50,12 +50,15 @@
     font-size: 16px;
 }
 .form-register .boton:hover{
-    background-color:var(--main-color);
+    background-color:var(--acento);
     color: #fff;
 }
 .form-register .link-cuenta a:hover{
-    color:var(--main-color) ;
+    color:var(--acento) ;
 }
 .form-register .link-acuerdo{
-    color: var(--main-color);
+    color: #fff;
+}
+.form-register .link-acuerdo:hover{
+    color: var(--acento);
 }

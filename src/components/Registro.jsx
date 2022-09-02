@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/estiloRegistro.css'
 
 function Registro() {
@@ -13,7 +14,7 @@ function Registro() {
             <input className='controls' type="password" name='contrasena' id='contrasena' placeholder="Contraseña"  />
             <p className='link-cuenta'>Estoy de acuerdo  con <a href="/">Terminos y condiciones</a></p>
             <input className=' boton' type="submit " value='Registrar'/>
-            <p className='link-cuenta'><a href="/">Ya tengo cuanta</a></p>
+            <p className='link-cuenta'><Link to='/inicio'>Ya tengo cuanta</Link></p>
           </section>
 
     </>
