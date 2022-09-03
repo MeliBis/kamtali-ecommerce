@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import NavBar from "../components/NavBar";
+import NavBarPrincipal from "../components/NavBarPrincipal";
 
 const MiCuentaPage = () => {
   return (
-    <div>MiCuentaPage</div>
-  )
-}
+    <>
+      <NavBarPrincipal />
+      <NavBar />
+    </>
+  );
+};
 
-export default MiCuentaPage
+export default MiCuentaPage;

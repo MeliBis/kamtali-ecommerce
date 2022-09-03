@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import NavBar from "../components/NavBar";
+import NavBarPrincipal from "../components/NavBarPrincipal";
 
 const OrdenarPage = () => {
   return (
-    <div>OrdenarPage</div>
-  )
-}
+    <>
+      <NavBarPrincipal />
+      <NavBar />
+    </>
+  );
+};
 
-export default OrdenarPage
+export default OrdenarPage;

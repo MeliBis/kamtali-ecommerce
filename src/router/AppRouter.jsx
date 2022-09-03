@@ -14,6 +14,14 @@ import MiCuentaPage from '../pages/MiCuentaPage'
 import RegistroPage from '../pages/RegistroPage'
 import OrdenarPage from '../pages/OrdenarPage'
 import LocalizacionPage from '../pages/LocalizacionPage'
+import TecnologiaPage from '../pages/TecnologiaPage'
+import RopaPage from '../pages/RopaPage'
+import RopaBordadaPage from '../pages/RopaBordadaPage'
+import PostresPage from '../pages/PostresPage'
+import MascotasPage from '../pages/MascotasPage'
+import OfertaDiaPage from '../pages/OfertaDiaPage'
+import OfertaMesPage from '../pages/OfertaMesPage'
+
 
 
 const AppRouter = () => {
@@ -29,6 +37,13 @@ const AppRouter = () => {
             <Route path="/micuenta" element={<MiCuentaPage />}/>
             <Route path="/ordenar" element={<OrdenarPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
+            <Route path="/tecnologia" element={<TecnologiaPage />}/>
+            <Route path="/ropa" element={<RopaPage />}/>
+            <Route path="/ropabordada" element={<RopaBordadaPage />}/>
+            <Route path="/postres" element={<PostresPage />}/>
+            <Route path="/mascotas" element={<MascotasPage />}/>
+            <Route path="/ofertadia" element={<OfertaDiaPage />}/>
+            <Route path="/ofertames" element={<OfertaMesPage />}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 

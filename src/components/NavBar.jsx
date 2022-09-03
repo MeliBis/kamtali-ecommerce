@@ -18,7 +18,7 @@ const NavBar = () => {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
-                  <a
+                  <Link to="./"
                     className="nav-link dropdown-toggle"
                     href="#"
                     role="button"
@@ -26,74 +26,79 @@ const NavBar = () => {
                     aria-expanded="false"
                   >
                    Categorias
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link to="./ropa" className="dropdown-item" href="#">
                         Ropa
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link to="./ropabordada" className="dropdown-item" href="#">
                       Ropa bordada
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink to="./mascotas" className="dropdown-item" href="#">
                         Mascotas
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink to="./tecnologia" className="dropdown-item" href="#">
                       Tecnología
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink to="./postres" className="dropdown-item" href="#">
                         Postres gourmet
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
              
+
+
+
              
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
+
+
+                <li className="nav-item dropdown ">
+                  <NavLink to="./"
+                    className="nav-link dropdown-toggle "
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Lo más nuevo
-                  </a>
+                  </NavLink>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Del mes
-                      </a>
+                      <NavLink to="./" className="dropdown-item" href="#">
+                        Dama
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        En tienda
-                      </a>
+                      <NavLink to="./tecologia" className="dropdown-item" href="#">
+                       Caballero
+                      </NavLink>
                     </li>
                     <li>
-                      <hr className="dropdown-divider" />
+                      <NavLink to="./tecologia" className="dropdown-item" href="#">
+                       Bendiciones
+                      </NavLink>
                     </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                      Tienda Online
-                      </a>
-                    </li>
+                    
+                     
+                   
                   </ul>
                 </li>
 
+
                 <li className="nav-item dropdown">
-                  <a
+                  <NavLink to="./"
                     className="nav-link dropdown-toggle"
                     href="#"
                     role="button"
@@ -101,26 +106,20 @@ const NavBar = () => {
                     aria-expanded="false"
                   >
                     Ofertas
-                  </a>
+                  </NavLink>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Ropa
-                      </a>
+                      <NavLink to='./ofertadia' className="dropdown-item" href="#">
+                        Del día
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                       Tecnología
-                      </a>
+                      <NavLink to="./ofertames" className="dropdown-item" href="#">
+                       Del mes
+                      </NavLink>
                     </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                       Mascotas
-                      </a>
-                    </li>
+                   
+                  
                   </ul>
                 </li>
 
@@ -167,7 +166,7 @@ const NavBar = () => {
                     </li>
                   </div>
                   <li>
-                    <Link to="/cuenta" className="dropdown-item" href="#">
+                    <Link to="/micuenta" className="dropdown-item" href="#">
                       Mi cuenta
                     </Link>
                   </li>
@@ -178,7 +177,7 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/orden" className="dropdown-item" href="#">
+                    <Link to="/ordenar" className="dropdown-item" href="#">
                       Ordear
                     </Link>
                   </li>
