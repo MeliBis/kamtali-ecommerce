@@ -8,7 +8,8 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Grid, Pagination } from "swiper";
-
+/* import "../styles/stylesGrid.css";
+ */
 const imgGrid1 = require('../assets/section5Grid/mujer1.png')
 const imgGrid2 = require('../assets/section5Grid/mujer2.png')
 const imgGrid3 = require('../assets/section5Grid/mujer3.png')
@@ -26,6 +27,7 @@ const imgGrid9 = require('../assets/section5Grid/hombre3.png')
 const Section5Grid = () => {
   return (
     <>
+    <h3 className="container mb-4">Lo más nuevo</h3>
  <Swiper
         slidesPerView={3}
         grid={{
@@ -36,7 +38,7 @@ const Section5Grid = () => {
           clickable: true,
         }}
         modules={[Grid, Pagination]}
-        className="mySwiper container row row-cols- row-cols-sm-2 row-cols-md-3 g-3 ">
+        className="mySwiper1 container ">
 
         
         <SwiperSlide className="r">
