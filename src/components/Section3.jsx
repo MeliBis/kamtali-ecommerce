@@ -63,9 +63,9 @@ const Section3 = () => {
       <div className="card mt-5 me-5" style={{width: '18rem'}}>
               <img src={recomendacion1} className="card-img-top" alt="..." />
           <div className="card-body">
-              <h5 className="card-title">Ropa bordada</h5>
-              <p className="card-text">Viste cultura y tradición</p>
-              <p className="card-text mt-3"><small className="text-muted">Las ropa artesanal también es muy linda</small></p>
+              <h5 className="card-title">Todos a la moda</h5>
+              <p className="card-text">Ropa</p>
+              <p className="card-text mt-3"><small className="text-muted">$230</small></p>
               <div >
             <ul className="d-flex justify-content-between list-unstyled">
                 <li>
@@ -98,9 +98,9 @@ const Section3 = () => {
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
             <img src={recomendacion2} className="card-img-top" alt="..." />
         <div className="card-body">
-            <h5 className="card-title">Tecnología</h5>
-            <p className="card-text">Encuentra las mejores ofertas</p>
-            <p className="card-text mt-3"><small className="text-muted">Automatiza tu vida</small></p>
+            <h5 className="card-title">Todos a la moda</h5>
+            <p className="card-text">Ropa</p>
+            <p className="card-text mt-3"><small className="text-muted">$230</small></p>
             <div >
             <ul className="d-flex justify-content-between list-unstyled">
                 <li>
@@ -133,9 +133,9 @@ const Section3 = () => {
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
             <img src={recomendacion3} className="card-img-top" alt="..." />
         <div className="card-body">
-            <h5 className="card-title">Viste a la moda</h5>
-            <p className="card-text">Ropa a la moda</p>
-            <p className="card-text mt-3"><small className="text-muted">ropa dama</small></p>
+            <h5 className="card-title">Todos a la moda</h5>
+            <p className="card-text">Ropa</p>
+            <p className="card-text mt-3"><small className="text-muted">$230</small></p>
             <div >
             <ul className="d-flex justify-content-between list-unstyled">
                 <li>
@@ -169,9 +169,9 @@ const Section3 = () => {
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
             <img src={recomendacion4} className="card-img-top" alt="..." />
         <div className="card-body">
-            <h5 className="card-title">Ropa para dama</h5>
-            <p className="card-text">Ellas siempre a la moda</p>
-            <p className="card-text mt-3"><small className="text-muted">Accesorios para dama</small></p>
+            <h5 className="card-title">Todos a la moda</h5>
+            <p className="card-text">Ropa</p>
+            <p className="card-text mt-3"><small className="text-muted">$230</small></p>
             <div>
             <ul className="d-flex justify-content-between list-unstyled">
                 <li>
@@ -205,9 +205,9 @@ const Section3 = () => {
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
             <img src={recomendacion5} className="card-img-top" alt="..." />
         <div className="card-body">
-            <h5 className="card-title">Ropa para caballeros</h5>
-            <p className="card-text">Los caballeros tambien se preocupan pr lucir bien</p>
-            <p className="card-text mt-3"><small className="text-muted">Lo mejor</small></p>
+            <h5 className="card-title">Todos a la moda</h5>
+            <p className="card-text">Ropa</p>
+            <p className="card-text mt-3"><small className="text-muted">$230</small></p>
             <div >
             <ul className="d-flex justify-content-between list-unstyled">
                 <li>
@@ -241,8 +241,8 @@ const Section3 = () => {
             <img src={recomendacion6} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">Todos a la moda</h5>
-            <p className="card-text">Ropa para niños</p>
-            <p className="card-text mt-3"><small className="text-muted">Novedades</small></p>
+            <p className="card-text">Ropa</p>
+            <p className="card-text mt-3"><small className="text-muted">$230</small></p>
             <div>
             <ul className="d-flex justify-content-between list-unstyled">
                 <li>
