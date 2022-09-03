@@ -2,7 +2,8 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import NavBarPrincipal from "../components/NavBarPrincipal";
 
-const TecnologiaPage = () => {
+
+const BabysPage = () => {
   return (
     <>
       <NavBarPrincipal />
@@ -11,4 +12,4 @@ const TecnologiaPage = () => {
   );
 };
 
-export default TecnologiaPage;
+export default BabysPage;

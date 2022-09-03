@@ -3,14 +3,14 @@ import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
 
 
-const MascotasPage = () => {
+const CaballeroPage = () => {
   return (
     <>
-      <NavBarPrincipal/>
-      <NavBar/>
+        <NavBarPrincipal/>
+        <NavBar/>
 
     </>
   )
 }
 
-export default MascotasPage
+export default CaballeroPage

@@ -7,7 +7,7 @@ const imagenLogoNav = require('../assets/logokamtaliBco.png')
 const NavBarPrincipal = () => {
   return (
     <>
- <nav className="navbar bg-secondary" >
+ <nav className="navbar bg-dark" >
   <div className="container">
     <ul>
     <Link to="/" href="" className=" list-unstyle">

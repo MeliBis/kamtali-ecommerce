@@ -10,8 +10,8 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation,esLint } from "swiper";
 
 // import required modules
- const imgPublicidad2 = require('../assets/publicidad/publicidad2.jpg')
-const imgPublicidad3 = require('../assets/publicidad/publicidad3.jpg')
+ const imgPublicidad2 = require('../assets/sf.png')
+const imgPublicidad3 = require('../')
  
 export default function App() {
   return (
@@ -52,7 +52,7 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide >
-        <img src={imgPublicidad3} className="card-img-top"  alt="..." />
+        <img src={imgPublicidad2} className="card-img-top"  alt="..." />
 
         </SwiperSlide>
         <SwiperSlide>
@@ -60,7 +60,7 @@ export default function App() {
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src={imgPublicidad3} className="card-img-top" alt="..." />
+        <img src={imgPublicidad2} className="card-img-top" alt="..." />
 
         </SwiperSlide>
  

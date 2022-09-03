@@ -2,8 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import NavBarPrincipal from "../components/NavBarPrincipal";
 
-
-const PostresPage = () => {
+const CaballeritoPage = () => {
   return (
     <>
       <NavBarPrincipal />
@@ -12,4 +11,4 @@ const PostresPage = () => {
   );
 };
 
-export default PostresPage;
+export default CaballeritoPage;

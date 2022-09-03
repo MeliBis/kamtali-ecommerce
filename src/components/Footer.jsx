@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-white py-4 bg-secondary">
+      <footer className="text-white py-4 bg-dark mt-4">
         <div className="container  ">
           <nav className="row">
             <img src="" alt="" />

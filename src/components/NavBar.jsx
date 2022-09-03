@@ -29,40 +29,35 @@ const NavBar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="./ropa" className="dropdown-item" href="#">
-                        Ropa
+                      <Link to="./damas" className="dropdown-item" href="#">
+                        Dama
                       </Link>
                     </li>
                     <li>
-                      <Link to="./ropabordada" className="dropdown-item" href="#">
-                      Ropa bordada
+                      <Link to="./caballero" className="dropdown-item" href="#">
+                     Caballero
                       </Link>
                     </li>
                     <li>
                     </li>
                     <li>
-                      <NavLink to="./mascotas" className="dropdown-item" href="#">
-                        Mascotas
+                      <NavLink to="./damitas" className="dropdown-item" href="#">
+                        Damitas
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="./tecnologia" className="dropdown-item" href="#">
-                      Tecnología
+                      <NavLink to="./caballeritos" className="dropdown-item" href="#">
+                      Caballeritos
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="./postres" className="dropdown-item" href="#">
-                        Postres gourmet
+                      <NavLink to="./babys" className="dropdown-item" href="#">
+                        Babys
                       </NavLink>
                     </li>
                   </ul>
                 </li>
              
-
-
-
-             
-
 
                 <li className="nav-item dropdown ">
                   <NavLink to="./"
@@ -152,14 +147,14 @@ const NavBar = () => {
                   <div className="d-flex">
                     <li>
                       <Link to="/registro" className="dropdown-item  " href="#">
-                        <button type="button" class="btn btn-outline-secondary me-1">
+                        <button type="button" class="btn btn-outline-dark me-1">
                           Regístrate
                         </button>
                       </Link>
                     </li>
                     <li>
                       <Link to="/inicio" className="dropdown-item " href="#">
-                        <button type="button" class="btn btn-outline-warning">
+                        <button type="button" class="btn btn-outline-secondary">
                           Iniciar Sesión
                         </button>
                       </Link>

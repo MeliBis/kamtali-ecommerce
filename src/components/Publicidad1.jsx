@@ -3,7 +3,7 @@ import React from "react";
 const Publicidad1 = () => {
   return (
     <>
-      <nav className="navbar bg-secondary text-white mb-5">
+      <nav className="navbar bg-dark text-white mb-5">
         <div className="container-fluid">
           <a className="navbar-brand col-sm-12 d-flex justify-content-center text-white" href="#">
             {/* <img

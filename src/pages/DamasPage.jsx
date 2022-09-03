@@ -2,15 +2,13 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
 
-
-const RopaBordadaPage = () => {
+const DamasPage = () => {
   return (
     <>
-        <NavBarPrincipal/>
-        <NavBar/>
-
+      <NavBarPrincipal/>
+      <NavBar/>
     </>
   )
 }
 
-export default RopaBordadaPage
+export default DamasPage

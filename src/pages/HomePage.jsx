@@ -9,6 +9,8 @@ import Publicidad1 from '../components/Publicidad1'
 import Section4 from '../components/Section4'
 import SectionAnuncio1 from '../components/SectionAnuncio1'
 import Section5Grid from '../components/Section5Grid'
+import Section5Grid2 from '../components/Section5Grid2'
+import Section5Grid3 from '../components/Section5Grid3'
 
 const HomePage = () => {
   return (
@@ -18,9 +20,13 @@ const HomePage = () => {
       <NavBar/>
       <SectionSlide1/>
       <Section3/>
-      <Section4/>
       <Publicidad1/>
       <Section5Grid/>
+      <Section5Grid2/>
+      <Section5Grid3/>
+      <Publicidad1/>
+
+      <Section4/>
       <Footer/>
     </>
   )
