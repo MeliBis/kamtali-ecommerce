@@ -6,7 +6,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
-const imagenProducto1 = require('../assets/sf.png')
+const recomendacion1 = require('../assets/ropaDama/1.png')
+const recomendacion2 = require('../assets/ropaDama/2.png')
+const recomendacion3 = require('../assets/ropaDama/3.png')
+const recomendacion4 = require('../assets/ropaDama/4.png')
+const recomendacion5 = require('../assets/ropaDama/5.png')
+const recomendacion6 = require('../assets/ropaDama/6.png')
+const recomendacion7 = require('../assets/ropaDama/7.png')
+
 
 
 
@@ -54,7 +61,7 @@ const Section3 = () => {
         <SwiperSlide>
 
       <div className="card mt-5 me-5" style={{width: '18rem'}}>
-              <img src={imagenProducto1} className="card-img-top" alt="..." />
+              <img src={recomendacion1} className="card-img-top" alt="..." />
           <div className="card-body">
               <h5 className="card-title">Ropa bordada</h5>
               <p className="card-text">Viste cultura y tradición</p>
@@ -89,7 +96,7 @@ const Section3 = () => {
         <SwiperSlide>
 
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
-            <img src={imagenProducto1} className="card-img-top" alt="..." />
+            <img src={recomendacion2} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">Tecnología</h5>
             <p className="card-text">Encuentra las mejores ofertas</p>
@@ -124,7 +131,7 @@ const Section3 = () => {
         <SwiperSlide>
 
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
-            <img src={imagenProducto1} className="card-img-top" alt="..." />
+            <img src={recomendacion3} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">Viste a la moda</h5>
             <p className="card-text">Ropa a la moda</p>
@@ -160,7 +167,7 @@ const Section3 = () => {
         <SwiperSlide>
 
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
-            <img src={imagenProducto1} className="card-img-top" alt="..." />
+            <img src={recomendacion4} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">Ropa para dama</h5>
             <p className="card-text">Ellas siempre a la moda</p>
@@ -196,7 +203,7 @@ const Section3 = () => {
         <SwiperSlide>
 
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
-            <img src={imagenProducto1} className="card-img-top" alt="..." />
+            <img src={recomendacion5} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">Ropa para caballeros</h5>
             <p className="card-text">Los caballeros tambien se preocupan pr lucir bien</p>
@@ -231,7 +238,7 @@ const Section3 = () => {
         <SwiperSlide>
 
         <div className="card mt-5 me-2" style={{width: '18rem'}}>
-            <img src={imagenProducto1} className="card-img-top" alt="..." />
+            <img src={recomendacion6} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">Todos a la moda</h5>
             <p className="card-text">Ropa para niños</p>

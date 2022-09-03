@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/estiloRegistro.css'
+const logoDark = require('../assets/logoKamtaliDark.png')
 
 function Registro() {
   return (
     <>
 
         <section className='form-register'>
-            <h1>Regístrate</h1>
+             <h1 className='navbar-brand col-sm-12 d-flex justify-content-center  mb-5'>Regístrate</h1>
             <input className='controls' type="text" name='nombre' id='nombre' placeholder="Nombre" />
             <input className='controls' type="text" name='apellido' id='apellido' placeholder="Apellido" />
             <input className='controls' type="email" name='email' id='email' placeholder="m@gmail.com" />

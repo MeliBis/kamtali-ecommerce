@@ -10,9 +10,14 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation,esLint } from "swiper";
 
 // import required modules
- const imgPublicidad2 = require('../assets/sf.png')
-const imgPublicidad3 = require('../')
- 
+const imgslide1 = require('../assets/ropaDama/19.png')
+const imgslide2 = require('../assets/ropaDama/18.png')
+const imgslide3 = require('../assets/ropaDama/17.png')
+const imgslide4 = require('../assets/ropaDama/16.png')
+const imgslide5 = require('../assets/ropaDama/15.png')
+const imgslide6 = require('../assets/ropaCaballero/5.png')
+
+
 export default function App() {
   return (
     <>
@@ -52,15 +57,27 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide >
-        <img src={imgPublicidad2} className="card-img-top"  alt="..." />
+        <img src={imgslide1} className="card-img-top"  alt="..." />
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src={imgPublicidad2} className="card-img-top" alt="..." />
+        <img src={imgslide2} className="card-img-top" alt="..." />
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src={imgPublicidad2} className="card-img-top" alt="..." />
+        <img src={imgslide3} className="card-img-top" alt="..." />
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={imgslide4} className="card-img-top" alt="..." />
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={imgslide5} className="card-img-top" alt="..." />
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={imgslide6} className="card-img-top" alt="..." />
 
         </SwiperSlide>
  
