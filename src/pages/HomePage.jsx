@@ -8,6 +8,7 @@ import NavBar0 from '../components/NavBar0'
 import Publicidad1 from '../components/Publicidad1'
 import Section4 from '../components/Section4'
 import SectionAnuncio1 from '../components/SectionAnuncio1'
+import Section5Grid from '../components/Section5Grid'
 
 const HomePage = () => {
   return (
@@ -17,11 +18,9 @@ const HomePage = () => {
       <NavBar/>
       <SectionSlide1/>
       <Section3/>
-
-    
-
       <Section4/>
       <Publicidad1/>
+      <Section5Grid/>
       <Footer/>
     </>
   )
