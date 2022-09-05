@@ -15,12 +15,11 @@ import RegistroPage from '../pages/RegistroPage'
 import OrdenarPage from '../pages/OrdenarPage'
 import LocalizacionPage from '../pages/LocalizacionPage'
 import CaballeroPage from '../pages/CaballeroPage.jsx'
-import DamitasPage from '../pages/DamitasPage'
 import OfertaDiaPage from '../pages/OfertaDiaPage'
 import OfertaMesPage from '../pages/OfertaMesPage'
 import DamasPage from '../pages/DamasPage'
-import BabysPage from '../pages/BabysPage'
-import CaballeritoPage from '../pages/CaballeritoPage'
+import SideBarPage from '../pages/SideBarPage'
+import PagoPage from '../pages/PagoPage'
 
 
 
@@ -37,13 +36,12 @@ const AppRouter = () => {
             <Route path="/micuenta" element={<MiCuentaPage />}/>
             <Route path="/ordenar" element={<OrdenarPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
-            <Route path="/caballeritos" element={<CaballeritoPage />}/>
             <Route path="/damas" element={<DamasPage />}/>
             <Route path="/caballero" element={<CaballeroPage />}/>
-            <Route path="/babys" element={<BabysPage />}/>
-            <Route path="/damitas" element={<DamitasPage />}/>
             <Route path="/ofertadia" element={<OfertaDiaPage />}/>
             <Route path="/ofertames" element={<OfertaMesPage />}/>
+            <Route path="/sidebar" element={<SideBarPage />}/>
+            <Route path="/pago" element={<PagoPage />}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 

@@ -1,16 +1,16 @@
 import React from 'react'
+import Pago from '../components/Pago'
 import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
 
-
-const DamitasPage = () => {
+const PagoPage = () => {
   return (
     <>
-      <NavBarPrincipal/>
-      <NavBar/>
-
+    <NavBarPrincipal/>
+    <NavBar/>
+        <Pago/>
     </>
   )
 }
 
-export default DamitasPage
+export default PagoPage
