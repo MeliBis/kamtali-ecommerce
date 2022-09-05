@@ -333,16 +333,16 @@ const Pago = () => {
           </div>
         </main>
         <footer className="my-5 pt-5 text-muted text-center text-small">
-          <p className="mb-1">© 2017–2022 Company Name</p>
+          <p className="mb-1">© 2022  Kamtali</p>
           <ul className="list-inline">
             <li className="list-inline-item">
-              <a href="#">Privacy</a>
+              <a href="#">Privacidad</a>
             </li>
             <li className="list-inline-item">
-              <a href="#">Terms</a>
+              <a href="#">Terminos y condiciones</a>
             </li>
             <li className="list-inline-item">
-              <a href="#">Support</a>
+              <a href="#">Soporte</a>
             </li>
           </ul>
         </footer>

@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import { Grid, Pagination } from "swiper";
 /* import "../styles/stylesGrid.css";
  */
-const imgGrid1 = require('../assets/section5Grid/mujer1.png')
+const imgGrid1 = require('../assets/ropaDama/1.png')
 const imgGrid2 = require('../assets/section5Grid/mujer2.png')
 const imgGrid3 = require('../assets/section5Grid/mujer3.png')
 
