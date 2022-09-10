@@ -8,10 +8,10 @@ const NavBarPrincipal = () => {
   return (
     <>
  <nav className="navbar bg-dark" >
-  <div className="container">
+  <div className="container d-flex">
     <ul>
     <Link to="/" href="" className=" list-unstyle">
-    <img src={imagenLogoNav} className="card-img-top" style={{width: '10rem'}} alt="..." />
+    <img src={imagenLogoNav} className="card-img-top mt-2" style={{width: '10rem'}} alt="..." />
     </Link>
 
     </ul>

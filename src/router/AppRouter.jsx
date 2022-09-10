@@ -14,10 +14,9 @@ import MiCuentaPage from '../pages/MiCuentaPage'
 import RegistroPage from '../pages/RegistroPage'
 import OrdenarPage from '../pages/OrdenarPage'
 import LocalizacionPage from '../pages/LocalizacionPage'
-import CaballeroPage from '../pages/CaballeroPage.jsx'
 import OfertaDiaPage from '../pages/OfertaDiaPage'
 import OfertaMesPage from '../pages/OfertaMesPage'
-import DamasPage from '../pages/DamasPage'
+import ProductosPage from '../pages/ProductosPage'
 import SideBarPage from '../pages/SideBarPage'
 import PagoPage from '../pages/PagoPage'
 
@@ -28,7 +27,6 @@ const AppRouter = () => {
     <>
     <Router>
         <Routes>
-            <Route path="/" element={<HomePage />}/>
             <Route path="/registro" element={<RegistroPage />}/>
             <Route path="/inicio" element={<InicioSesionPage />}/>
             <Route path="/acerca" element={<AcercaDePage />}/>
@@ -36,12 +34,12 @@ const AppRouter = () => {
             <Route path="/micuenta" element={<MiCuentaPage />}/>
             <Route path="/ordenar" element={<OrdenarPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
-            <Route path="/damas" element={<DamasPage />}/>
-            <Route path="/caballero" element={<CaballeroPage />}/>
+            <Route path="/productos" element={<ProductosPage />}/>
             <Route path="/ofertadia" element={<OfertaDiaPage />}/>
             <Route path="/ofertames" element={<OfertaMesPage />}/>
             <Route path="/sidebar" element={<SideBarPage />}/>
             <Route path="/pago" element={<PagoPage />}/>
+            <Route path="/" element={<HomePage />}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 

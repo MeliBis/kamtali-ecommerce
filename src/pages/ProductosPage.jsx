@@ -1,14 +1,16 @@
 import React from 'react'
+import Productos from '../components/Productos'
 import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
 
-const DamasPage = () => {
+const ProductosPage = () => {
   return (
     <>
       <NavBarPrincipal/>
       <NavBar/>
+      <Productos/>
     </>
   )
 }
 
-export default DamasPage
+export default ProductosPage;
