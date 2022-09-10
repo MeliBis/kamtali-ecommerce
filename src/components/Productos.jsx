@@ -6,7 +6,7 @@ const imgMuestra = require("../assets/sf.png");
 const Productos = () => {
   return (
     <>
-      <h1 className="title container">Primavera dama</h1>
+      <h2 className="title container">Ropa casual</h2>
       <div>
         <div className="app">
           <div className="productos">
@@ -20,7 +20,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -39,7 +39,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -58,7 +58,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -77,7 +77,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -96,7 +96,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -116,7 +116,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -135,7 +135,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -153,7 +153,7 @@ const Productos = () => {
                     <p> $530</p>
                   </div>
                   <div className="button d-flex">
-                    <button className="btn btn-primary ">
+                    <button className="btn btn-dark ">
                       Añadir al carrito
                     </button>
                     <button className="btn btn-warning">Eliminar</button>
@@ -161,7 +161,9 @@ const Productos = () => {
                 </div>
               </div>
             </div>
-            <h1 className="title container">Primavera caballero</h1>
+            <h2 className="title container">Vestidos</h2>
+            <h2 className="title container">Accesorios</h2>
+
           </div>
         </div>
       </div>
