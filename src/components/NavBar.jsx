@@ -29,12 +29,12 @@ const NavBar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="./productos" className="dropdown-item" href="#">
+                      <Link to="./dama" className="dropdown-item" href="#">
                         Dama
                       </Link>
                     </li>
                     <li>
-                      <Link to="./productos" className="dropdown-item" href="#">
+                      <Link to="./caballero" className="dropdown-item" href="#">
                      Caballero
                       </Link>
                     </li>
@@ -57,12 +57,12 @@ const NavBar = () => {
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
-                      <NavLink to="./productos" className="dropdown-item" href="#">
+                      <NavLink to="./" className="dropdown-item" href="#">
                         Dama
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="./productos" className="dropdown-item" href="#">
+                      <NavLink to="./" className="dropdown-item" href="#">
                        Caballero
                       </NavLink>
                     </li>

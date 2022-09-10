@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
+import ProductoCaballero from '../components/ProductoCaballero'
 
 
 const CaballeroPage = () => {
@@ -8,7 +9,7 @@ const CaballeroPage = () => {
     <>
         <NavBarPrincipal/>
         <NavBar/>
-
+        <ProductoCaballero/>
     </>
   )
 }

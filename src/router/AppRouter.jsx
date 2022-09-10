@@ -16,9 +16,10 @@ import OrdenarPage from '../pages/OrdenarPage'
 import LocalizacionPage from '../pages/LocalizacionPage'
 import OfertaDiaPage from '../pages/OfertaDiaPage'
 import OfertaMesPage from '../pages/OfertaMesPage'
-import ProductosPage from '../pages/ProductosPage'
+import ProductosDamaPage from '../pages/ProductosDamaPage'
 import SideBarPage from '../pages/SideBarPage'
 import PagoPage from '../pages/PagoPage'
+import CaballeroPage from '../pages/CaballeroPage.jsx'
 
 
 
@@ -34,7 +35,9 @@ const AppRouter = () => {
             <Route path="/micuenta" element={<MiCuentaPage />}/>
             <Route path="/ordenar" element={<OrdenarPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
-            <Route path="/productos" element={<ProductosPage />}/>
+            <Route path="/dama" element={<ProductosDamaPage />}/>
+            <Route path="/caballero" element={<CaballeroPage />}/>
+
             <Route path="/ofertadia" element={<OfertaDiaPage />}/>
             <Route path="/ofertames" element={<OfertaMesPage />}/>
             <Route path="/sidebar" element={<SideBarPage />}/>
