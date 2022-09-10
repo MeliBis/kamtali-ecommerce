@@ -46,7 +46,7 @@ const NavBar = () => {
              
 
                 <li className="nav-item dropdown ">
-                  <NavLink to="./"
+                  <NavLink to="./productos"
                     className="nav-link dropdown-toggle "
                     href="#"
                     role="button"
@@ -57,12 +57,12 @@ const NavBar = () => {
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
-                      <NavLink to="./" className="dropdown-item" href="#">
+                      <NavLink to="./productos" className="dropdown-item" href="#">
                         Dama
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="./tecologia" className="dropdown-item" href="#">
+                      <NavLink to="./productos" className="dropdown-item" href="#">
                        Caballero
                       </NavLink>
                     </li>
