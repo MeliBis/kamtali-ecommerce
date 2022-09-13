@@ -29,12 +29,12 @@ const NavBar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="./dama" className="dropdown-item" href="#">
+                      <Link to="/dama" className="dropdown-item" href="#">
                         Dama
                       </Link>
                     </li>
                     <li>
-                      <Link to="./caballero" className="dropdown-item" href="#">
+                      <Link to="/caballero" className="dropdown-item" href="#">
                      Caballero
                       </Link>
                     </li>
@@ -46,7 +46,7 @@ const NavBar = () => {
              
 
                 <li className="nav-item dropdown ">
-                  <NavLink to="./productos"
+                  <NavLink to="/productos"
                     className="nav-link dropdown-toggle "
                     href="#"
                     role="button"
@@ -57,12 +57,12 @@ const NavBar = () => {
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
-                      <NavLink to="./" className="dropdown-item" href="#">
+                      <NavLink to="/dama" className="dropdown-item" href="#">
                         Dama
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="./" className="dropdown-item" href="#">
+                      <NavLink to="/caballero" className="dropdown-item" href="#">
                        Caballero
                       </NavLink>
                     </li>
@@ -86,12 +86,12 @@ const NavBar = () => {
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
-                      <NavLink to='./ofertadia' className="dropdown-item" href="#">
+                      <NavLink to='/ofertadia' className="dropdown-item" href="#">
                         Del día
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="./ofertames" className="dropdown-item" href="#">
+                      <NavLink to="/ofertames" className="dropdown-item" href="#">
                        Del mes
                       </NavLink>
                     </li>
