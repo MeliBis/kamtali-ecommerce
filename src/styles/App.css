@@ -3,3 +3,11 @@
     height: 50vh;
     margin: 0 auto;
 }
+
+    .cover {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 40vh;
+    }

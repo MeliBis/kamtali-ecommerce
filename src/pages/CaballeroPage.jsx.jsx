@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {Link} from 'react'
+import Catalogo from '../components/Catalogo'
 import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
 import ProductoCaballero from '../components/ProductoCaballero'
@@ -7,9 +8,9 @@ import ProductoCaballero from '../components/ProductoCaballero'
 const CaballeroPage = () => {
   return (
     <>
-        <NavBarPrincipal/>
-        <NavBar/>
-        <ProductoCaballero/>
+
+        <Catalogo/>
+
     </>
   )
 }

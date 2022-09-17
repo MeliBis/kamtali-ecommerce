@@ -1,16 +1,18 @@
 import React from 'react'
+import Casual from '../components/CasualDama'
 import NavBar from '../components/NavBar'
 import NavBarPrincipal from '../components/NavBarPrincipal'
-import CasualDama from '../components/CasualDama'
 
-const ProductosDamaPage = () => {
+const CasualPage = () => {
   return (
     <>
       <NavBarPrincipal/>
       <NavBar/>
-      <CasualDama/>
+      <Casual/>
+
+
     </>
   )
 }
 
-export default ProductosDamaPage;
+export default CasualPage

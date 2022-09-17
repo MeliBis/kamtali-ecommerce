@@ -25,7 +25,7 @@ const Footer = () => {
               </li>
 
               <li className="text-left text-white ">
-                <Link to="/localizacion" href="" className="  text-warning text-decoration-none link-light" >
+                <Link to="/localizacion" href="" className="   text-warning text-decoration-none link-light" >
                   Encuéntranos
                 </Link>{" "}
               </li>
