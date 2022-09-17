@@ -50,7 +50,7 @@ const Deportiva = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper container"
+        className="mySwiper container mb-5"
       >
         <SwiperSlide>
 

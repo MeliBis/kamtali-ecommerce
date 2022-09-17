@@ -7,8 +7,8 @@ const AcercaDe = () => {
     <>
 
 
-        <div className="container  col  vh-100 row align-items-center justify-content-center display-4"> 
-          <div className="row flex-lg-row-reverse align-items-center  py-5">
+        <div className="container  col  vh-100 row justify-content-center display-2 mt¿2"> 
+          <div className="row flex-lg-row-reverse align-items-center  ">
             <div className="col-10 col-sm-8 col-lg-6">
               <img src={imgAcercaDe} className="d-block mx-lg-auto img-fluid rounded ms-4" alt="avatar Melissa" width={700}  loading="lazy" />
             </div>

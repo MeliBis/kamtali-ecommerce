@@ -29,49 +29,17 @@ const NavBar = () => {
                   
                 </li>
           
-                <li className="nav-item dropdown ">
-                  <NavLink
-                    to="/catalogo"
-                    className="nav-link dropdown-toggle"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Catálogo
-                  </NavLink>
+                <li className="nav-item">
+                  <Link to='/catalogo' className="nav-link" href="#">
+                    Ofertas 
+                  </Link>
+                </li>
+                <li className="nav-item dropdown">
+                  
+                  
                 </li>
 
-                <li className="nav-item dropdown">
-                  <NavLink
-                    to="dama/"
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Ofertas
-                  </NavLink>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <NavLink
-                        to="/ofertadia"
-                        className="dropdown-item"
-                        href="#"
-                      >
-                        Del día
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/ofertames"
-                        className="dropdown-item"
-                        href="#"
-                      >
-                        Del mes
-                      </NavLink>
-                    </li>
-                  </ul>
-                </li>
+                
               </ul>
             </div>
 

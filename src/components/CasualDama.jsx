@@ -50,7 +50,6 @@ const CasualDama = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper container"
       >
         <SwiperSlide>
 
