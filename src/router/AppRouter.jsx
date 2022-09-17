@@ -15,11 +15,8 @@ import MiCuentaPage from '../pages/MiCuentaPage'
 import RegistroPage from '../pages/RegistroPage'
 import OrdenarPage from '../pages/OrdenarPage'
 import LocalizacionPage from '../pages/LocalizacionPage'
-import OfertaDiaPage from '../pages/OfertaDiaPage'
-import OfertaMesPage from '../pages/OfertaMesPage'
 import SideBarPage from '../pages/SideBarPage'
 import PagoPage from '../pages/PagoPage'
-import CaballeroPage from '../pages/CaballeroPage.jsx'
 import CasualPage from '../pages/CasualPage'
 import CatalogoPage from '../pages/CatalogoPages'
 import NochePage from './NochePage'
@@ -40,10 +37,7 @@ const AppRouter = () => {
             <Route path="/ordenar" element={<OrdenarPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
         
-            <Route path="/caballero" element={<CaballeroPage />}/>
 
-            <Route path="/ofertadia" element={<OfertaDiaPage />}/>
-            <Route path="/ofertames" element={<OfertaMesPage />}/>
             <Route path="/pago" element={<PagoPage />}/>
             <Route path="/pago" element={<PagoPage />}/>
             <Route path="/catalogo" element={<CatalogoPage />}/>
@@ -55,7 +49,9 @@ const AppRouter = () => {
 
 
             <Route path="/" element={<HomePage />}/>
-            <Route path='https://www.facebook.com/kamtali.store'/>
+{/*             <Route path='https://www.facebook.com/kamtali.store'/>
+ */}            <Route path='/twitter' component={() => window.location = 'https://twitter.com/Kamtali_mx'}/>
+
             <Route path="/*" element={<Navigate to="/" />} />
 
         </Routes>
