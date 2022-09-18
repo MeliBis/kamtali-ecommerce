@@ -16,11 +16,11 @@ import RegistroPage from '../pages/RegistroPage'
 import OrdenarPage from '../pages/OrdenarPage'
 import LocalizacionPage from '../pages/LocalizacionPage'
 import SideBarPage from '../pages/SideBarPage'
-import PagoPage from '../pages/PagoPage'
 import CasualPage from '../pages/CasualPage'
 import CatalogoPage from '../pages/CatalogoPages'
-import NochePage from './NochePage'
+import NochePage from '../pages/NochePage'
 import DeportivaPage from '../pages/DeportivaPage'
+import Pago from '../pages/PagoPage'
 
 
 const AppRouter = () => {
@@ -38,10 +38,9 @@ const AppRouter = () => {
             <Route path="/localizacion" element={<LocalizacionPage />}/>
         
 
-            <Route path="/pago" element={<PagoPage />}/>
-            <Route path="/pago" element={<PagoPage />}/>
             <Route path="/catalogo" element={<CatalogoPage />}/>
-            <Route path="/sidebar" element={<SideBarPage />}/>
+            <Route path="/pago" element={<Pago />}/>
+            <Route path="/compra" element={<SideBarPage />}/>
 
             <Route path="/casual" element={<CasualPage />}/>
             <Route path="/noche" element={<NochePage />}/>

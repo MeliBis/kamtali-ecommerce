@@ -100,8 +100,9 @@ const NavBar = () => {
                   </li>
                 </ul>
               </li>
+              {/* card */}
               <li className=" list-unstyled ">
-                <NavLink to="./pago" className=" position-absolute">
+                <NavLink to="/compra" className=" position-absolute">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"

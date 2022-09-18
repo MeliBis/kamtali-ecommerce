@@ -6,8 +6,8 @@ import NavBarPrincipal from '../components/NavBarPrincipal'
 const PagoPage = () => {
   return (
     <>
-    <NavBarPrincipal/>
-    <NavBar/>
+        <NavBarPrincipal/>
+        <NavBar/>
         <Pago/>
     </>
   )

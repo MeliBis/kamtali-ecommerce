@@ -1,5 +1,5 @@
 import React from 'react'
-xconst imgAcercaDe = require('../assets/sf.png')
+const imgAcercaDe = require('../assets/sf.png')
 
 const CatalogoPage = () => {
   return (
