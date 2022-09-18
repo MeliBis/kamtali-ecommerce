@@ -20,7 +20,7 @@ import CasualPage from '../pages/CasualPage'
 import CatalogoPage from '../pages/CatalogoPages'
 import NochePage from '../pages/NochePage'
 import DeportivaPage from '../pages/DeportivaPage'
-import Pago from '../pages/PagoPage'
+import PagoPage from '../pages/PagoPage'
 
 
 const AppRouter = () => {
@@ -34,12 +34,12 @@ const AppRouter = () => {
             <Route path="/acerca" element={<AcercaDePage />}/>
             <Route path="/deseos" element={<ListaDeseosPage />}/>
             <Route path="/micuenta" element={<MiCuentaPage />}/>
-            <Route path="/ordenar" element={<OrdenarPage />}/>
+            <Route path="/pago" element={<PagoPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
-        
+            <Route path="/ordenar" element={<OrdenarPage />}/>
+
 
             <Route path="/catalogo" element={<CatalogoPage />}/>
-            <Route path="/pago" element={<Pago />}/>
             <Route path="/compra" element={<SideBarPage />}/>
 
             <Route path="/casual" element={<CasualPage />}/>

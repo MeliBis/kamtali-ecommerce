@@ -10,7 +10,7 @@ import {
 
 const NavBar = () => {
   return (
-    <nav classname="navbar navbar-expand-lg bg-light d-flex ">
+    <nav className="navbar navbar-expand-lg bg-light d-flex ">
       <div className="container-fluid mw-100  ">
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container">
@@ -28,7 +28,7 @@ const NavBar = () => {
                   
                   
                 </li>
-          
+          {/* 
                 <li className="nav-item">
                   <Link to='/catalogo' className="nav-link" href="#">
                     Ofertas 
@@ -37,7 +37,7 @@ const NavBar = () => {
                 <li className="nav-item dropdown">
                   
                   
-                </li>
+                </li> */}
 
                 
               </ul>
