@@ -82,7 +82,7 @@ const NavBar = () => {
                   </li>
                 </ul>
               </li>
-              <NavLink to='./pago' className="">
+              <NavLink to='/compra' className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
