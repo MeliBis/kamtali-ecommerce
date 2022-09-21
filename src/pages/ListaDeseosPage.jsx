@@ -7,6 +7,7 @@ const ListaDeseosPage = () => {
     <>
       <NavBarPrincipal />
       <NavBar />
+      <h3 className="container mt-4">enlazar productos que desean clientes</h3>
     </>
   );
 };
