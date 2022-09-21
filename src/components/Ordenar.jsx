@@ -1,8 +1,11 @@
 import React from 'react'
+import '../styles/estiloRegistro.css'
 
 const Ordenar = () => {
   return (
-    <div>Ordenar</div>
+    <>
+  
+    </>
   )
 }
 
