@@ -19,13 +19,13 @@ const Footer = () => {
             <ul className="col-12 col-md-2 list-unstyled  ">
               <li className="fw-bold mb-2">Acerca de Kamtali</li>
               <li className="">
-                <Link to="/acerca" href=""className=" text-decoration-none text-warning link-light" >
+                <Link to="/acerca" href=""className=" text-decoration-none text-light link-warning" >
                   Acerca de nosotros
                 </Link>{" "}
               </li>
 
               <li className="text-left text-white ">
-                <Link to="/localizacion" href="" className="   text-warning text-decoration-none link-light" >
+                <Link to="/localizacion" href="" className="   text-light text-decoration-none link-warning" >
                   Encuéntranos
                 </Link>{" "}
               </li>
