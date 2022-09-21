@@ -17,17 +17,10 @@ const NavBar = () => {
           <div className="container">
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
-                <li className="nav-item ">
-                  <Link to="./"
-                    className="nav-link"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                   Categorias
+              <li className="nav-item d-flex  ">
+                  <Link to="/catalogo" className="nav-link " href="#">
+                    Catálogo
                   </Link>
-                 
                 </li>
               
               </ul>
@@ -65,7 +58,7 @@ const NavBar = () => {
                     </li>
                     <li>
                       <Link to="/inicio" className="dropdown-item " href="#">
-                        <button type="button" class="btn btn-outline-secondary">
+                        <button type="button" class="btn btn-outline-dark">
                           Iniciar Sesión
                         </button>
                       </Link>
