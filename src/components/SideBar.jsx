@@ -7,7 +7,7 @@ const SideBar = () => {
   return (
     <>
       <div
-        className="d-flex flex-column flex-shrink-0 mt-2 p-3 text-dark vh-100 bg-light "
+        className="d-flex flex-column flex-shrink-0 mt-2 p-3 text-dark vh-100 bg-light nav__list"
         style={{ width: 500}}
       >
         <a
@@ -60,7 +60,7 @@ const SideBar = () => {
         {/* btn ordenar */}
         <ul className="nav nav-pills flex-column mb-auto ">
           <li className="nav-item text-center">
-            <a href="#" className="nav-link active" aria-current="page">
+            <a href="" className="nav-link active" aria-current="page">
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#home" />
               </svg>

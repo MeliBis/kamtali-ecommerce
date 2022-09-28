@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/estiloRegistro.css'
+
 const logoDark = require('../assets/logoKamtaliDark.png')
 
 function Registro() {

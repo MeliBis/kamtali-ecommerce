@@ -21,6 +21,7 @@ import CatalogoPage from '../pages/CatalogoPages'
 import NochePage from '../pages/NochePage'
 import DeportivaPage from '../pages/DeportivaPage'
 import PagoPage from '../pages/PagoPage'
+import PerfilPage from '../pages/PerfilPage'
 
 
 const AppRouter = () => {
@@ -37,6 +38,7 @@ const AppRouter = () => {
             <Route path="/pago" element={<PagoPage />}/>
             <Route path="/localizacion" element={<LocalizacionPage />}/>
             <Route path="/ordenar" element={<OrdenarPage />}/>
+            <Route path="/perfil" element={<PerfilPage />}/>
 
 
             <Route path="/catalogo" element={<CatalogoPage />}/>

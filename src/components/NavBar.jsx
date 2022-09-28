@@ -7,9 +7,13 @@ import {
   NavLink,
   Link,
 } from "react-router-dom";
+import SideBarPage from "../pages/SideBarPage";
+import SideBar2 from "./SideBar2";
+
 
 
 const NavBar = () => {
+
   return (
     <nav classname="navbar navbar-expand-lg bg-light d-flex ">
       <div className="container-fluid mw-100  ">
@@ -71,8 +75,13 @@ const NavBar = () => {
                   </li> */}
 
                   <li>
-                    <Link to="/deseos" className="dropdown-item" href="#">
-                      Lista de deseos
+                    <Link to="/perfil" className="dropdown-item" href="#">
+                      Perfil
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/ordenar" className="dropdown-item" href="#">
+                    Lista de deseos
                     </Link>
                   </li>
                   <li>
@@ -82,7 +91,9 @@ const NavBar = () => {
                   </li>
                 </ul>
               </li>
-              <NavLink to='/compra' className="">
+              <SideBar2/>
+{/*               <SideBarPage/>
+ */}              <NavLink to='/' className="nav__menu">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"

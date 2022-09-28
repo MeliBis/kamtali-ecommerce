@@ -9,7 +9,7 @@ const Inicio = () => {
             <input className='controls' type="email" name='email' id='email' placeholder="m@gmail.com" />
             <input className='controls' type="password" name='contrasena' id='contrasena' placeholder="Contraseña"  />
             <p >Estoy de acuerdo  con <a href="/" className='link-acuerdo fw-bold'>Terminos y condiciones</a></p>
-            <input className=' boton' type="submit " value='Registrar'/>
+            <input className=' boton' type="submit " value='Iniciar sesión'/>
           </section>
     </>
   )
