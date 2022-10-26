@@ -1,3 +1,8 @@
+###Proyecto de ecommerce titulado Kamtali, es una tienda en línea hecha con HTML, Css nativo, Bootstrap, React, Node Js, Express y Mongo db.
+El motivo de la creación de este proyecto es practicar los conocimientos adquiridos en Ucamp.
+<img width="1056" alt="Captura de Pantalla 2022-10-26 a la(s) 17 04 52" src="https://user-images.githubusercontent.com/77559097/198147408-de0be3b2-9a79-4c52-b904-a5fd03a635db.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
